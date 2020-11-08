@@ -1,0 +1,18 @@
+{
+    "name": "hasan/to-do-list",
+    "description": "Exam test with OOP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "rakeybulhasan",
+            "email": "rakeybulhasan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Exam\\Test\\": "includes/"
+        }
+    }
+}
