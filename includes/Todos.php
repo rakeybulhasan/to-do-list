@@ -65,16 +65,6 @@ class Todos
         }
 
     }
-    public function findProductById($id){
-        $sql_query = "SELECT * FROM todos where id={$id}";
-        $result = $this->db_connect->prepare($sql_query);
-        $result->execute();
-        $res = $result->get_result();
-        if ( $res->num_rows > 0) {
-            return  $res->fetch_assoc();
-        }
-        return false;
-    }
 
 }
 
